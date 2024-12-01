@@ -1,0 +1,54 @@
+.cell{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background: fixed#1f3540;
+    border: 4px solid #0f1b21;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 50px;
+    color: grey;
+    text-align: center;
+
+}
+.cell:hover{
+    background: whitesmoke;
+}
+#gameContainer{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color:whitesmoke;
+    height:100vh;
+    width: 100vw;
+    background-size: cover;
+    color: black;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    padding-right: 200px;
+    align-items: center;
+    text-align: center;
+}
+.button {
+    width: 150px;
+    height: 60px;
+    background-color: #1f3540;
+    border: none;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+  }
+.button1 {border-radius: 12px;}
+
+
+  
